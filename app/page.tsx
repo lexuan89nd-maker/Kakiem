@@ -13,10 +13,13 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden px-6 py-20">
-        <div className="absolute right-[-80px] top-10 text-[180px] opacity-10">
-          🐟
-        </div>
+      <section
+  className="relative overflow-hidden px-6 py-20 bg-cover bg-center"
+  style={{
+    backgroundImage:
+      "linear-gradient(rgba(2,11,20,0.72), rgba(2,11,20,0.92)), url('/e3381362-d827-4540-b92e-ed8503505655.png')",
+  }}
+  >
 
         <div className="relative z-10">
           <p className="mb-3 text-blue-400 font-semibold">
