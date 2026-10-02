@@ -17,7 +17,7 @@ export default function Home() {
   className="relative overflow-hidden px-6 py-20 bg-cover bg-center"
   style={{
     backgroundImage:
-      "linear-gradient(rgba(2,11,20,0.50), rgba(2,11,20,0.70)), url('/e3381362-d827-4540-b92e-ed8503505655.png')",
+      "linear-gradient(rgba(2,11,20,0.45), rgba(2,11,20,0.65)), url('/e3381362-d827-4540-b92e-ed8503505655.png')",
   }}
   >
 
