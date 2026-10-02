@@ -1,16 +1,21 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#020b14] text-white">
-      {/* MENU */}
-      <header className="flex items-center justify-between px-5 py-4 border-b border-white/10">
-        <div className="text-2xl font-bold">
-          🐟 KAKIEM
-        </div>
+{/* MENU */}
+<header className="flex items-center justify-between px-5 py-3 border-b border-white/10 bg-[#020b14]">
+  <div className="flex items-center">
+    <img
+      src="/kakiem-logo.png"
+      alt="KAKIEM"
+      className="h-14 w-auto object-contain"
+    />
+  </div>
 
-        <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm">
-          Đăng nhập
-        </button>
-      </header>
+  <button className="rounded-lg bg-blue-600 px-5 py-3 text-sm font-semibold hover:bg-blue-500 transition">
+    Đăng nhập
+  </button>
+</header>
+    /{}
 
       {/* HERO */}
       <section
